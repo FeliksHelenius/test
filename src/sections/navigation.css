@@ -1,0 +1,28 @@
+#navigation-bar {
+	display: grid;
+	position: relative;
+	width: 100svw;
+	min-height: fit-content;
+	background-color: #202124;
+}
+
+.navigation-link-wrapper {
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+	justify-self: end;
+	padding: 1rem;
+}
+.navigation-link-wrapper a {
+	color: white;
+}
+
+/* Beginning of common component styles */
+a {
+	all: unset;
+}
+.icon {
+	height: 2rem;
+}
